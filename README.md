@@ -1,7 +1,7 @@
 # Arena de Treinamento Esportivo e Análise de Física em Realidade Virtual
 
-## 👤 Identificação
-* **Nome Completo:** Matheus
+## 👤 Autor
+* **Nome Completo:** Matheus Guilherme Madureira
 
 ---
 
@@ -12,7 +12,9 @@ O objetivo do ambiente no Metaverso é simular interações de alta fidelidade f
 
 O projeto quebra a estática de um cenário 3D convencional ao implementar um sistema dinâmico de chute em C#. Ao interagir com a bola através dos controladores de VR, ela recebe um impulso físico realista e altera o seu estado visual (cor do material) para **Vermelho**, gerando feedback imediato ao utilizador.
 
----
+<p align="center">
+    <img src="./game-screen.png" alt="Demonstração da Arena de Treinamento VR" width="80%">
+</p>
 
 ## 🛠️ Configuração Técnica e Compatibilidade Meta XR
 O projeto foi desenvolvido sob rigorosos padrões de engenharia XR, garantindo compatibilidade nativa com a plataforma **Meta Quest (Android)**.
