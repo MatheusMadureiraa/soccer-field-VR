@@ -5,16 +5,23 @@
 
 ---
 
-## ⚽ Apresentação do Projeto e Objetivos no Metaverso
-Este projeto consiste num ecossistema de **Realidade Virtual (VR)** interativo que simula uma Arena de Treinamento Esportivo voltada para o entretenimento e para a análise mecânica de física aplicada. 
+## ⚽ Apresentando o Seu Projeto
+Este projeto consiste num ecossistema de **Realidade Virtual (VR)** interativo e imersivo focado em simulação esportiva. A aplicação disponibiliza uma infraestrutura tridimensional de uma arena de futebol digital, composta por elementos posicionados de forma coerente (gramado texturizado, traves, arquibancadas, postes de iluminação e placas publicitárias). 
 
-O objetivo do ambiente no Metaverso é simular interações de alta fidelidade física em cenários imersivos de treino, permitindo a repetição mecânica de movimentos e o estudo de vetores de força em ambiente digital controlado. 
-
-O projeto quebra a estática de um cenário 3D convencional ao implementar um sistema dinâmico de chute em C#. Ao interagir com a bola através dos controladores de VR, ela recebe um impulso físico realista e altera o seu estado visual (cor do material) para **Vermelho**, gerando feedback imediato ao utilizador.
+O projeto rompe com a passividade de cenários virtuais estáticos ao introduzir engenharia de software via C#. Ao interagir com a bola através dos controladores de VR, o sistema processa o comando em tempo real, gerando um impulso físico vetorizado realista e alterando dinamicamente a propriedade visual do material para a cor **Vermelha**, provendo um ciclo completo de feedback (*input-output*).
 
 <p align="center">
     <img src="./game-screen.png" alt="Demonstração da Arena de Treinamento VR" width="80%">
 </p>
+
+---
+
+## 🎯 Contexto e Objetivos
+A criação desta arena tem como finalidade solucionar problemas práticos de engajamento, acessibilidade e validação científica no Metaverso, dividindo-se em dois pilares fundamentais:
+
+* **Entretenimento e Gamificação:** O ambiente fornece um espaço de simulação intuitivo e imersivo, permitindo a usuários finais vivenciarem a mecânica de esportes tradicionais de forma virtual com alta fidelidade de interação, abrindo precedentes para ecossistemas globais de e-sports em ambientes XR.
+
+---
 
 ## 🛠️ Configuração Técnica e Compatibilidade Meta XR
 O projeto foi desenvolvido sob rigorosos padrões de engenharia XR, garantindo compatibilidade nativa com a plataforma **Meta Quest (Android)**.
